@@ -13,25 +13,15 @@ export default function Experience() {
           </span>
         </h1>
 
-        <div className="flex flex-col gap-12 max-w-[70ch]">
+        {/* <div className="flex flex-col gap-12 max-w-[70ch]">
           <div className="prose prose-theme">
             <h3 className="text-heading-2">Coding Proficiency:</h3>
             <p>
               JavaScript, TypeScript, PHP, HTML, CSS, Tailwind CSS, SQL,
               PostgreSQL
             </p>
-            <ul>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>PHP</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Tailwind CSS</li>
-              <li>SQL</li>
-              <li>PostgreSQL</li>
-            </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col gap-12 max-w-[70ch]">
           <div className="prose prose-theme">
