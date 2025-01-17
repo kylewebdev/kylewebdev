@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Portrait from '@/public/portrait.jpg';
+// import Portrait from '@/public/portrait.jpg';
 
 import LinkedInIcon from '@/public/linkedin.svg';
 import GitHubIcon from '@/public/github.svg';
