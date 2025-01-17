@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Poppins, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Script from 'next/script';
+import Head from 'next/head';
 
 const poppinsSans = Poppins({
   variable: '--font-poppins-sans',
@@ -32,6 +33,15 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/<generated>"
+          sizes="16x16, 32x32, 96x96"
+        />
+      </Head>
       <Script
         async
         src="https://cloud.umami.is/script.js"
