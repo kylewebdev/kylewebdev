@@ -47,6 +47,9 @@ export default function Thoughts() {
                 <h2 className="text-heading-2 font-bold">
                   The Tools That Shaped My Development Journey
                 </h2>
+                <p className="text-concrete-gray">
+                  <em>January - 2025</em>
+                </p>
                 <p className="text-soft-pewter">
                   A look at the key tools that transformed my approach to web
                   development and made me a more efficient coder.
@@ -81,6 +84,9 @@ export default function Thoughts() {
                 <h2 className="text-heading-2 font-bold">
                   From Solo Dev to Full-Stack
                 </h2>
+                <p className="text-concrete-gray">
+                  <em>June - 2024</em>
+                </p>
                 <p className="text-soft-pewter">
                   Discover how working solo as a developer taught me resilience,
                   problem-solving, and self-reliance in the tech world.
@@ -115,6 +121,9 @@ export default function Thoughts() {
                 <h2 className="text-heading-2 font-bold">
                   Gamifying Productivity
                 </h2>
+                <p className="text-concrete-gray">
+                  <em>March - 2024</em>
+                </p>
                 <p className="text-soft-pewter">
                   Learn how I&apos;ve applied gaming strategies to boost
                   productivity and stay motivated in my development workflow.
