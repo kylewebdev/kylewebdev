@@ -20,7 +20,7 @@ export default function Projects() {
 
           <div className="flex flex-col gap-6">
             <a
-              href="https://jointmedias.com/work/sites-reservoir-project/"
+              href="https://vivasupermarket.com/"
               target="_blank"
               className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
