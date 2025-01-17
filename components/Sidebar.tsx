@@ -12,16 +12,16 @@ export default function Sidebar() {
   return (
     <aside className="basis-1/3 order-2 md:order-1">
       <div className="md:mx-auto flex flex-row md:flex-col md:max-w-[320px] gap-8 md:text-center">
-        <div className="relative">
+        {/* <div className="relative">
           <Image
             className="max-w-full rounded-lg"
             src={Portrait}
             alt="Picture of me, Kyle Garcia"
           />
           <div className="bg-dither absolute inset-0 z-10 pointer-events-none opacity-60"></div>
-        </div>
+        </div> */}
         <div className="flex flex-col gap-4 md:px-4">
-          <h2 className="text-2xl font-bold">Kyle Garcia</h2>
+          <h2 className="text-heading-2 font-bold">Kyle Garcia</h2>
           <p className="text-soft-pewter">
             A Full-Stack Web Developer who delivers modern, salable, and
             user-centric solutions.
