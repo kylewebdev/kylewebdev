@@ -24,7 +24,7 @@ export default function Home() {
             </p>
           </li>
           <li>
-            <h3 className="text-special-numbers font-semibold">60+</h3>
+            <h3 className="text-special-numbers font-semibold">40+</h3>
             <p className="text-special-text text-soft-pewter uppercase max-w-[10ch]">
               Websites Launched
             </p>
