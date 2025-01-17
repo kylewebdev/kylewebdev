@@ -135,11 +135,12 @@ export default function Tools() {
 
         <div className="prose prose-theme">
           <p>
-            Have a project in mind or an idea you'd like to bring to life? I'm
-            always excited to collaborate on meaningful work that blends
-            creativity and functionality. Whether it's building a sleek web
-            application or exploring innovative solutions, let's make it happen
-            together! Fill out the form below, and I’ll get back to you soon.
+            Have a project in mind or an idea you&apos;d like to bring to life?
+            I&apos;m always excited to collaborate on meaningful work that
+            blends creativity and functionality. Whether it&apos;s building a
+            sleek web application or exploring innovative solutions, let&apos;s
+            make it happen together! Fill out the form below, and I&apos;ll get
+            back to you soon.
           </p>
         </div>
 
