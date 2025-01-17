@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import ToolImage from '@/public/the-tools-that-shaped-my-development-journey.jpeg';
 import SoloDevImage from '@/public/from-solo-dev-to-full-stack.jpeg';
 import GamifyImage from '@/public/gamifying-productivity.jpeg';
@@ -18,7 +19,7 @@ export default function Thoughts() {
           </h1>
 
           <div className="flex flex-col gap-6">
-            <a
+            <Link
               href="/thoughts/the-tools-that-shaped-my-development-journey/"
               className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
@@ -51,8 +52,8 @@ export default function Thoughts() {
                   development and made me a more efficient coder.
                 </p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/thoughts/from-solo-dev-to-full-stack/"
               className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
@@ -85,8 +86,8 @@ export default function Thoughts() {
                   problem-solving, and self-reliance in the tech world.
                 </p>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/thoughts/gamifying-productivity/"
               className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
@@ -119,7 +120,7 @@ export default function Thoughts() {
                   productivity and stay motivated in my development workflow.
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-16">
