@@ -146,7 +146,13 @@ export default {
               // color: 'var(--soft-pewter)',
             },
             h1: {
+              fontSize: 'var(--heading-1-small)',
+            },
+            h2: {
               fontSize: 'var(--heading-2)',
+            },
+            h3: {
+              fontSize: 'var(--heading-3)',
             },
           },
         },
