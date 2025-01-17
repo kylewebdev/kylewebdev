@@ -41,14 +41,14 @@ export default function Home() {
 
       <Stats />
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 @container">
         <div className="prose prose-theme max-w-[500px]">
           <p className="text-small">
             From the essentials to cutting-edge frameworks, here&apos;s what
             I&apos;ve been working with to bring ideas to life:
           </p>
         </div>
-        <div className="grid grid-cols-5 gap-4 max-w-[550px]">
+        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @xl:grid-cols-5 gap-4 max-w-[550px]">
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger>
