@@ -142,6 +142,9 @@ export default {
         DEFAULT: {
           css: {
             fontSize: 'var(--small)',
+            em: {
+              // color: 'var(--soft-pewter)',
+            },
             h1: {
               fontSize: 'var(--heading-2)',
             },
@@ -149,7 +152,7 @@ export default {
         },
         theme: {
           css: {
-            '--tw-prose-body': 'var(--off-white)',
+            '--tw-prose-body': 'var(--soft-pewter)',
             '--tw-prose-headings': 'var(--off-white)',
             '--tw-prose-lead': 'var(--off-white)',
             '--tw-prose-links': 'var(--off-white)',
@@ -165,6 +168,7 @@ export default {
             '--tw-prose-pre-bg': 'var(--off-white)',
             '--tw-prose-th-borders': 'var(--off-white)',
             '--tw-prose-td-borders': 'var(--off-white)',
+
             '--tw-prose-invert-body': 'var(--off-white)',
             '--tw-prose-invert-headings': 'var(--off-white)',
             '--tw-prose-invert-lead': 'var(--off-white)',
