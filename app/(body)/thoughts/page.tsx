@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import ToolImage from '@/public/the-tools-that-shaped-my-development-journey.jpeg';
-import SoloDevImage from '@/public/from-solo-dev-to-full-stack.jpeg';
-import GamifyImage from '@/public/gamifying-productivity.jpeg';
+import ToolImage from '@/public/thoughts/the-tools-that-shaped-my-development-journey.jpeg';
+import SoloDevImage from '@/public/thoughts/from-solo-dev-to-full-stack.jpeg';
+import GamifyImage from '@/public/thoughts/gamifying-productivity.jpeg';
 import { Contact } from '@/components/Contact';
 import { PageTitle } from '@/components/PageTitle';
 

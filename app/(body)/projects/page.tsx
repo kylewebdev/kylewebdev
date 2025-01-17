@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import VivaImage from '@/public/viva.jpg';
-import CAEnergyImage from '@/public/CA-Energy-Workers.jpg';
-import LucasImage from '@/public/Lucas-Public-Affairs.jpg';
-import SitesImage from '@/public/Sites-Reservoir-Project.jpg';
+import VivaImage from '@/public/projects/viva.jpg';
+import CAEnergyImage from '@/public/projects/CA-Energy-Workers.jpg';
+import LucasImage from '@/public/projects/Lucas-Public-Affairs.jpg';
+import SitesImage from '@/public/projects/Sites-Reservoir-Project.jpg';
 import { Contact } from '@/components/Contact';
 import { PageTitle } from '@/components/PageTitle';
 

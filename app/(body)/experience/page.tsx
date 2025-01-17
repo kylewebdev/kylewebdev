@@ -13,7 +13,7 @@ export default function Experience() {
             <h3 className="text-heading-2">Coding Proficiency:</h3>
             <p>
               JavaScript, TypeScript, PHP, HTML, CSS, Tailwind CSS, SQL,
-              PostgreSQL
+              PostgreSQL, MySQL, MongoDB, Git, WordPress, Next.js, React, Vue,
             </p>
           </div>
         </div> */}

@@ -3,10 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 // import Portrait from '@/public/portrait.jpg';
 
-import LinkedInIcon from '@/public/linkedin.svg';
-import GitHubIcon from '@/public/github.svg';
-import XIcon from '@/public/x.svg';
-import EmailIcon from '@/public/email.svg';
+import LinkedInIcon from '@/public/social/linkedin.svg';
+import GitHubIcon from '@/public/social/github.svg';
+import XIcon from '@/public/social/x.svg';
+import EmailIcon from '@/public/social/email.svg';
 
 export default function Sidebar() {
   return (
