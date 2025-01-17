@@ -18,10 +18,10 @@ export default function Thoughts() {
             </span>
           </h1>
 
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 @container">
             <Link
               href="/thoughts/the-tools-that-shaped-my-development-journey/"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -36,7 +36,7 @@ export default function Thoughts() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
                   className="rounded-lg"
                   src={ToolImage}
@@ -58,7 +58,7 @@ export default function Thoughts() {
             </Link>
             <Link
               href="/thoughts/from-solo-dev-to-full-stack/"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -73,7 +73,7 @@ export default function Thoughts() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
                   className="rounded-lg"
                   src={SoloDevImage}
@@ -95,7 +95,7 @@ export default function Thoughts() {
             </Link>
             <Link
               href="/thoughts/gamifying-productivity/"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -110,7 +110,7 @@ export default function Thoughts() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
                   className="rounded-lg"
                   src={GamifyImage}

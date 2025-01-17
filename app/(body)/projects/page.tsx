@@ -18,11 +18,11 @@ export default function Projects() {
             </span>
           </h1>
 
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 @container">
             <a
               href="https://vivasupermarket.com/"
               target="_blank"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -37,9 +37,9 @@ export default function Projects() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
-                  className="rounded-lg"
+                  className="rounded-lg w-full"
                   src={VivaImage}
                   alt="Viva Supermarket"
                 />
@@ -56,7 +56,7 @@ export default function Projects() {
             <a
               href="https://jointmedias.com/work/sites-reservoir-project/"
               target="_blank"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -71,9 +71,9 @@ export default function Projects() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
-                  className="rounded-lg"
+                  className="rounded-lg w-full"
                   src={SitesImage}
                   alt="Sites Reservoir Project"
                 />
@@ -92,7 +92,7 @@ export default function Projects() {
             <a
               href="https://jointmedias.com/work/lucas-public-affairs-web-design-web-development/"
               target="_blank"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -107,9 +107,9 @@ export default function Projects() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
-                  className="rounded-lg"
+                  className="rounded-lg w-full"
                   src={LucasImage}
                   alt="Lucas Public Affairs"
                 />
@@ -127,7 +127,7 @@ export default function Projects() {
             <a
               href="https://jointmedias.com/work/california-energy-workers/"
               target="_blank"
-              className="relative flex gap-4 items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+              className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
             >
               <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <svg
@@ -142,9 +142,9 @@ export default function Projects() {
                   />
                 </svg>
               </div>
-              <div className="max-w-[175px]">
+              <div className="max-w-[175px] flex-shrink-0">
                 <Image
-                  className="rounded-lg"
+                  className="rounded-lg w-full"
                   src={CAEnergyImage}
                   alt="Project 1"
                 />

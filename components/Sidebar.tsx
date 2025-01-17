@@ -11,7 +11,7 @@ import EmailIcon from '@/public/email.svg';
 export default function Sidebar() {
   return (
     <aside className="basis-1/3 order-2 md:order-1">
-      <div className="max-w-[320px] md:mx-auto flex flex-col gap-8 md:text-center">
+      <div className="md:mx-auto flex flex-row md:flex-col md:max-w-[320px] gap-8 md:text-center">
         <div className="relative">
           <Image
             className="max-w-full rounded-lg"

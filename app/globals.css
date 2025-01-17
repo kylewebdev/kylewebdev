@@ -109,3 +109,9 @@ h6 {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .theme-container {
+    @apply max-w-[1440px] mx-auto;
+  }
+}
