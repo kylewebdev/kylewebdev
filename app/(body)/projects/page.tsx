@@ -3,7 +3,7 @@ import VivaImage from '@/public/viva.jpg';
 import CAEnergyImage from '@/public/CA-Energy-Workers.jpg';
 import LucasImage from '@/public/Lucas-Public-Affairs.jpg';
 import SitesImage from '@/public/Sites-Reservoir-Project.jpg';
-import { ContactForm } from '@/components/ContactForm';
+import { Contact } from '@/components/Contact';
 
 export default function Projects() {
   return (
@@ -158,17 +158,7 @@ export default function Projects() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Let&apos;s Work</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Together
-          </span>
-        </h1>
-
-        <ContactForm />
-      </div>
+      <Contact />
     </div>
   );
 }

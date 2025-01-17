@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ToolImage from '@/public/the-tools-that-shaped-my-development-journey.jpeg';
 import SoloDevImage from '@/public/from-solo-dev-to-full-stack.jpeg';
 import GamifyImage from '@/public/gamifying-productivity.jpeg';
-import { ContactForm } from '@/components/ContactForm';
+import { Contact } from '@/components/Contact';
 
 export default function Thoughts() {
   return (
@@ -131,17 +131,7 @@ export default function Thoughts() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Let&apos;s Work</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Together
-          </span>
-        </h1>
-
-        <ContactForm />
-      </div>
+      <Contact />
     </div>
   );
 }

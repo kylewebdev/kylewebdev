@@ -1,4 +1,4 @@
-import { ContactForm } from '@/components/ContactForm';
+import { Contact } from '@/components/Contact';
 import Link from 'next/link';
 
 export default function Experience() {
@@ -153,17 +153,7 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Let&apos;s Work</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Together
-          </span>
-        </h1>
-
-        <ContactForm />
-      </div>
+      <Contact />
     </div>
   );
 }
