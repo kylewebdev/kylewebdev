@@ -39,7 +39,9 @@ export function ContactForm() {
       message: '',
     },
   });
-  const [formspreeState, handleFormspreeSubmit] = useFormspree('xpwweqjj');
+  const [formspreeState, handleFormspreeSubmit] = useFormspree(
+    process.env.NEXT_PUBLIC_FORM || ''
+  );
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     await handleFormspreeSubmit(values);
