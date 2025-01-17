@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Poppins, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const poppinsSans = Poppins({
   variable: '--font-poppins-sans',
@@ -16,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Kyle Garcia - Full-Stack Web Developer',
   description:
-    'I am a full-stack web developer with a passion for building beautiful and functional web applications.',
+    'Full-stack web developer with a passion for building beautiful and functional web applications.',
 };
 
 export default function RootLayout({
@@ -31,6 +32,11 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Script
+        async
+        src="https://cloud.umami.is/script.js"
+        data-website-id="3eb4248e-2eb6-4750-a0c9-9671b9677822"
+      />
     </html>
   );
 }
