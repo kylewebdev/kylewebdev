@@ -1,12 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Portrait from '@/public/portrait.jpg';
 import Navigation from '@/components/Navigation';
-
-import LinkedInIcon from '@/public/linkedin.svg';
-import GitHubIcon from '@/public/github.svg';
-import XIcon from '@/public/x.svg';
-import EmailIcon from '@/public/email.svg';
 import Sidebar from '@/components/Sidebar';
 
 export default function RootLayout({

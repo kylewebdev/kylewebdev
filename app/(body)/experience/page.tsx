@@ -80,7 +80,7 @@ export default function Experience() {
                 </li>
                 <li>
                   Spearheaded technology stack decisions, integrating modern
-                  frameworks and best practices to enhance the agency's
+                  frameworks and best practices to enhance the agency&apos;s
                   development capabilities.
                 </li>
                 <li>
