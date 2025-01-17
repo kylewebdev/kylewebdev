@@ -41,218 +41,226 @@ export default function Home() {
 
       <Stats />
 
-      <div className="grid grid-cols-5 gap-4 max-w-[550px]">
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={MySQLLogo}
-                alt="MySQL Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>MySQL</p>
-            </TooltipContent>
-          </Tooltip>
+      <div className="flex flex-col gap-8">
+        <div className="prose prose-theme max-w-[500px]">
+          <p className="text-small">
+            From the essentials to cutting-edge frameworks, here&apos;s what
+            I&apos;ve been working with to bring ideas to life:
+          </p>
+        </div>
+        <div className="grid grid-cols-5 gap-4 max-w-[550px]">
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={MySQLLogo}
+                  alt="MySQL Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>MySQL</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={NodeLogo}
-                alt="Node.js Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Node.js</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={NodeLogo}
+                  alt="Node.js Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Node.js</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={DockerLogo}
-                alt="Docker Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Docker</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={DockerLogo}
+                  alt="Docker Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Docker</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={ReactLogo}
-                alt="React Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>React</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={ReactLogo}
+                  alt="React Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>React</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={GitLogo}
-                alt="Git Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Git</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={GitLogo}
+                  alt="Git Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Git</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={WordPressLogo}
-                alt="WordPress Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>WordPress</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={WordPressLogo}
+                  alt="WordPress Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>WordPress</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={NextLogo}
-                alt="Next.js Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Next.js</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={NextLogo}
+                  alt="Next.js Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Next.js</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={CSSLogo}
-                alt="CSS Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>CSS</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={CSSLogo}
+                  alt="CSS Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>CSS</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={HTMLLogo}
-                alt="HTML Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>HTML</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={HTMLLogo}
+                  alt="HTML Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>HTML</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={JavaScriptLogo}
-                alt="JavaScript Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>JavaScript</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={JavaScriptLogo}
+                  alt="JavaScript Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>JavaScript</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={PHPLogo}
-                alt="PHP Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>PHP</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={PHPLogo}
+                  alt="PHP Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>PHP</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={PostgreSQLLogo}
-                alt="PostgreSQL Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>PostgreSQL</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={PostgreSQLLogo}
+                  alt="PostgreSQL Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>PostgreSQL</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={TailwindCSSLogo}
-                alt="Tailwind CSS Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Tailwind CSS</p>
-            </TooltipContent>
-          </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={TailwindCSSLogo}
+                  alt="Tailwind CSS Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Tailwind CSS</p>
+              </TooltipContent>
+            </Tooltip>
 
-          <Tooltip>
-            <TooltipTrigger>
-              <Image
-                src={TypeScriptLogo}
-                alt="TypeScript Logo"
-                width={64}
-                height={64}
-                className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
-              />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Typescript</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger>
+                <Image
+                  src={TypeScriptLogo}
+                  alt="TypeScript Logo"
+                  width={64}
+                  height={64}
+                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                />
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>Typescript</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+        </div>
       </div>
     </div>
   );
