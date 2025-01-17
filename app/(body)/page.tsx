@@ -57,7 +57,7 @@ export default function Home() {
                   alt="MySQL Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -72,7 +72,7 @@ export default function Home() {
                   alt="Node.js Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -87,7 +87,7 @@ export default function Home() {
                   alt="Docker Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -102,7 +102,7 @@ export default function Home() {
                   alt="React Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -117,7 +117,7 @@ export default function Home() {
                   alt="Git Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -132,7 +132,7 @@ export default function Home() {
                   alt="WordPress Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -147,7 +147,7 @@ export default function Home() {
                   alt="Next.js Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -162,7 +162,7 @@ export default function Home() {
                   alt="CSS Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -177,7 +177,7 @@ export default function Home() {
                   alt="HTML Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -192,7 +192,7 @@ export default function Home() {
                   alt="JavaScript Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -207,7 +207,7 @@ export default function Home() {
                   alt="PHP Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -222,7 +222,7 @@ export default function Home() {
                   alt="PostgreSQL Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -237,7 +237,7 @@ export default function Home() {
                   alt="Tailwind CSS Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
@@ -252,7 +252,7 @@ export default function Home() {
                   alt="TypeScript Logo"
                   width={64}
                   height={64}
-                  className="grayscale opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+                  className="grayscale mx-auto opacity-35 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
                 />
               </TooltipTrigger>
               <TooltipContent>
