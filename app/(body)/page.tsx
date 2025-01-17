@@ -48,7 +48,7 @@ export default function Home() {
             I&apos;ve been working with to bring ideas to life:
           </p>
         </div>
-        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @xl:grid-cols-5 gap-4 max-w-[550px]">
+        <div className="grid grid-cols-3 @md:grid-cols-4 @xl:grid-cols-5 gap-4 max-w-[550px]">
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger>
