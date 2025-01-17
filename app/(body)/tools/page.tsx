@@ -1,16 +1,11 @@
 import { Contact } from '@/components/Contact';
+import { PageTitle } from '@/components/PageTitle';
 
 export default function Tools() {
   return (
     <div className="flex flex-col gap-32">
       <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Developer</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Tools
-          </span>
-        </h1>
+        <PageTitle titleStart="Developer" titleEnd="Tools" />
 
         <div className="flex flex-col gap-12">
           <div className="prose prose-theme">
@@ -52,12 +47,17 @@ export default function Tools() {
               With years of experience working with WordPress, I have mastered
               modern approaches to crafting highly customized themes and
               plugins. I often integrate Tailwind CSS into my WordPress projects
-              to modernize the design.
+              to modernize the design. With years of experience working with
+              WordPress, I have mastered techniques for developing bespoke
+              themes and plugins. I often integrate Tailwind CSS into my
+              projects to enhance design modernity and adaptability.
             </p>
             <h3>Payload CMS</h3>
             <p>
               I enjoy experimenting with Payload CMS for its flexibility and
-              headless architecture, making it a strong choice for modern,
+              headless architecture, making it a strong choice for modern, I am
+              enthusiastic about using Payload CMS due to its flexible, headless
+              architecture, making it an excellent candidate for contemporary,
               API-driven applications.
             </p>
             <h3>Sanity CMS</h3>

@@ -141,7 +141,7 @@ export default {
       typography: () => ({
         DEFAULT: {
           css: {
-            fontSize: 'var(--small)',
+            fontSize: 'var(--body)',
             em: {
               // color: 'var(--soft-pewter)',
             },

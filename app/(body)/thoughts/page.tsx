@@ -4,18 +4,13 @@ import ToolImage from '@/public/the-tools-that-shaped-my-development-journey.jpe
 import SoloDevImage from '@/public/from-solo-dev-to-full-stack.jpeg';
 import GamifyImage from '@/public/gamifying-productivity.jpeg';
 import { Contact } from '@/components/Contact';
+import { PageTitle } from '@/components/PageTitle';
 
 export default function Thoughts() {
   return (
     <div className="flex flex-col gap-32">
       <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Thoughtful</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Thoughts
-          </span>
-        </h1>
+        <PageTitle titleStart="Thoughtful" titleEnd="Thoughts" />
 
         <div className="flex flex-col gap-6 @container">
           <Link

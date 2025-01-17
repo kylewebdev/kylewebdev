@@ -4,18 +4,13 @@ import CAEnergyImage from '@/public/CA-Energy-Workers.jpg';
 import LucasImage from '@/public/Lucas-Public-Affairs.jpg';
 import SitesImage from '@/public/Sites-Reservoir-Project.jpg';
 import { Contact } from '@/components/Contact';
+import { PageTitle } from '@/components/PageTitle';
 
 export default function Projects() {
   return (
     <div className="flex flex-col gap-32">
       <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Recent</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Projects
-          </span>
-        </h1>
+        <PageTitle titleStart="Recent" titleEnd="Projects" />
 
         <div className="flex flex-col gap-6 @container">
           <a

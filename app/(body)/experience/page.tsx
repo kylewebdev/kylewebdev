@@ -1,17 +1,12 @@
 import { Contact } from '@/components/Contact';
+import { PageTitle } from '@/components/PageTitle';
 import Link from 'next/link';
 
 export default function Experience() {
   return (
     <div className="flex flex-col gap-32">
       <div className="flex flex-col gap-16">
-        <h1 className="text-heading-1 font-bold">
-          <span>Professional</span>
-          <br />
-          <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">
-            Experience
-          </span>
-        </h1>
+        <PageTitle titleStart="Professional" titleEnd="Experience" />
 
         {/* <div className="flex flex-col gap-12 max-w-[70ch]">
           <div className="prose prose-theme">
@@ -25,12 +20,9 @@ export default function Experience() {
 
         <div className="flex flex-col gap-12 max-w-[70ch]">
           <div className="prose prose-theme">
-            <h3 className="text-heading-2">Freelancing</h3>
-            <p className="text-heading-3">
-              <strong>Web Development</strong>
-            </p>
+            <h2>Freelancing</h2>
             <p>
-              <em>2014 – Present</em>
+              <em>2014 &mdash; Present</em>
             </p>
             <ul>
               <li>
@@ -61,11 +53,11 @@ export default function Experience() {
                 Joint Medias
               </Link>
             </h3>
-            <p className="text-heading-3">
+            <h3>
               <strong>Full-Stack Web Developer</strong>
-            </p>
+            </h3>
             <p>
-              <em>February 2015 – Present | Sacramento</em>
+              <em>February 2015 &mdash; Present</em>
             </p>
             <ul>
               <li>
@@ -104,19 +96,19 @@ export default function Experience() {
           </div>
 
           <div className="prose prose-theme">
-            <h3 className="text-heading-2">
+            <h2>
               <Link
                 href="https://web.archive.org/web/20140704184655/https://www.digitalgear.com/"
                 target="_blank"
               >
                 Digital Gear
               </Link>
-            </h3>
-            <p className="text-heading-3">
+            </h2>
+            <h3>
               <strong>Intern Developer</strong>
-            </p>
+            </h3>
             <p>
-              <em>February 2012 – October 2014 | Sacramento</em>
+              <em>February 2012 &mdash; October 2014</em>
             </p>
             <ul>
               <li>
