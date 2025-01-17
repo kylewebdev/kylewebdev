@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="font-sans">
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 @container">
         <h1 className="text-heading-1 font-bold">
           <span>Full-Stack</span>
           <br />
@@ -11,12 +11,12 @@ export default function Home() {
         </h1>
 
         <p className="max-w-[50ch] text-soft-pewter text-body">
-          I believe in the power of the web to connect, inform, and inspire. I’m
-          focused on translating creative ideas into dynamic, responsive, and
-          scalable web applications.
+          I believe in the power of the web to connect, inform, and inspire.
+          I&apos;m focused on translating creative ideas into dynamic,
+          responsive, and scalable web applications.
         </p>
 
-        <ul className="flex gap-16">
+        <ul className="flex flex-col gap-8 @xl:flex-row @xl:gap-16">
           <li>
             <h3 className="text-special-numbers font-semibold">10+</h3>
             <p className="text-special-text text-soft-pewter uppercase max-w-[10ch]">
