@@ -1,5 +1,7 @@
 import Script from 'next/script';
 import SmoothScrolling from '@/components/SmoothScrolling';
+import { ViewTransitions } from 'next-view-transitions';
+
 import type { Metadata } from 'next';
 import { Poppins, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -27,17 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${poppinsSans.variable} ${geistMono.variable} antialiased bg-deep-charcoal bg-dither-2 text-off-white`}
-      >
-        <SmoothScrolling>{children}</SmoothScrolling>
-      </body>
-      <Script
-        async
-        src="https://cloud.umami.is/script.js"
-        data-website-id="3eb4248e-2eb6-4750-a0c9-9671b9677822"
-      />
-    </html>
+    <ViewTransitions>
+      <html lang="en">
+        <body
+          className={`${poppinsSans.variable} ${geistMono.variable} antialiased bg-deep-charcoal bg-dither-2 text-off-white`}
+        >
+          <SmoothScrolling>{children}</SmoothScrolling>
+        </body>
+        <Script
+          async
+          src="https://cloud.umami.is/script.js"
+          data-website-id="3eb4248e-2eb6-4750-a0c9-9671b9677822"
+        />
+      </html>
+    </ViewTransitions>
   );
 }
