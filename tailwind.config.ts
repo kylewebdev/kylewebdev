@@ -137,6 +137,7 @@ export default {
       },
       backgroundImage: {
         dither: "url('/dither.svg')",
+        'dither-2': "url('/dither-2.svg')",
       },
       typography: () => ({
         DEFAULT: {

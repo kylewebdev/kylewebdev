@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppinsSans.variable} ${geistMono.variable} antialiased bg-deep-charcoal text-off-white`}
+        className={`${poppinsSans.variable} ${geistMono.variable} antialiased bg-deep-charcoal bg-dither-2 text-off-white`}
       >
         <SmoothScrolling>{children}</SmoothScrolling>
       </body>
