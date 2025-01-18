@@ -8,16 +8,6 @@ export default function Experience() {
       <div className="flex flex-col gap-16">
         <PageTitle titleStart="Professional" titleEnd="Experience" />
 
-        {/* <div className="flex flex-col gap-12 max-w-[70ch]">
-          <div className="prose prose-theme">
-            <h3 className="text-heading-2">Coding Proficiency:</h3>
-            <p>
-              JavaScript, TypeScript, PHP, HTML, CSS, Tailwind CSS, SQL,
-              PostgreSQL, MySQL, MongoDB, Git, WordPress, Next.js, React, Vue,
-            </p>
-          </div>
-        </div> */}
-
         <div className="flex flex-col gap-12 max-w-[70ch]">
           <div className="prose prose-theme">
             <h2>Freelancing</h2>

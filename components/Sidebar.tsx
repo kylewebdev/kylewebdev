@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-// import Portrait from '@/public/portrait.jpg';
 
 import LinkedInIcon from '@/public/social/linkedin.svg';
 import GitHubIcon from '@/public/social/github.svg';
@@ -12,14 +11,6 @@ export default function Sidebar() {
   return (
     <aside className="basis-1/3 order-2 md:order-1">
       <div className="md:mx-auto flex flex-row md:flex-col md:max-w-[320px] gap-8 md:text-center">
-        {/* <div className="relative">
-          <Image
-            className="max-w-full rounded-lg"
-            src={Portrait}
-            alt="Picture of me, Kyle Garcia"
-          />
-          <div className="bg-dither absolute inset-0 z-10 pointer-events-none opacity-60"></div>
-        </div> */}
         <div className="flex flex-col gap-4 md:px-4">
           <h2 className="text-heading-2 font-bold">Kyle Garcia</h2>
           <p className="text-soft-pewter">
@@ -31,6 +22,8 @@ export default function Sidebar() {
               <Link
                 href="https://www.linkedin.com/in/kylewebdev/"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <Image
                   className="max-w-4"
@@ -41,7 +34,12 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link href="https://x.com/kylewebdev_" target="_blank">
+              <Link
+                href="https://x.com/kylewebdev_"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+              >
                 <Image
                   className="max-w-4"
                   style={{ filter: 'invert(1)' }}
@@ -51,7 +49,12 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/kylewebdev" target="_blank">
+              <Link
+                href="https://github.com/kylewebdev"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
                 <Image
                   className="max-w-4"
                   style={{ filter: 'invert(1)' }}
@@ -61,7 +64,7 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link href="mailto:kylewebdev@gmail.com">
+              <Link href="mailto:kylewebdev@gmail.com" aria-label="Email">
                 <Image
                   className="max-w-4"
                   style={{ filter: 'invert(1)' }}

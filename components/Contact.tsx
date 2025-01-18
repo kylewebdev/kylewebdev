@@ -3,7 +3,7 @@ import { ContactForm } from '@/components/ContactForm';
 export function Contact() {
   return (
     <div className="flex flex-col gap-16">
-      <h1 className="text-heading-1 font-bold">
+      <h1 className="text-heading-1 font-bold" aria-level="2">
         <span>Let&apos;s Work</span>
         <br />
         <span className="bg-clip-text text-transparent bg-muted-teal bg-dither">

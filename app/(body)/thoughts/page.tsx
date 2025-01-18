@@ -16,6 +16,7 @@ export default function Thoughts() {
           <Link
             href="/thoughts/the-tools-that-shaped-my-development-journey/"
             className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+            rel="noopener noreferrer"
           >
             <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg
@@ -38,7 +39,7 @@ export default function Thoughts() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-heading-2 font-bold">
+              <h2 className="text-heading-2 font-bold" aria-level="2">
                 The Tools That Shaped My Development Journey
               </h2>
               <p className="text-concrete-gray">
@@ -53,6 +54,7 @@ export default function Thoughts() {
           <Link
             href="/thoughts/from-solo-dev-to-full-stack/"
             className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+            rel="noopener noreferrer"
           >
             <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg
@@ -75,7 +77,7 @@ export default function Thoughts() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-heading-2 font-bold">
+              <h2 className="text-heading-2 font-bold" aria-level="2">
                 From Solo Dev to Full-Stack
               </h2>
               <p className="text-concrete-gray">
@@ -90,6 +92,7 @@ export default function Thoughts() {
           <Link
             href="/thoughts/gamifying-productivity/"
             className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
+            rel="noopener noreferrer"
           >
             <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg
@@ -112,7 +115,7 @@ export default function Thoughts() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-heading-2 font-bold">
+              <h2 className="text-heading-2 font-bold" aria-level="2">
                 Gamifying Productivity
               </h2>
               <p className="text-concrete-gray">

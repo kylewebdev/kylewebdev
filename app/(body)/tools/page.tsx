@@ -9,7 +9,7 @@ export default function Tools() {
 
         <div className="flex flex-col gap-12">
           <div className="prose prose-theme">
-            <h2>Core Technologies</h2>
+            <h2 aria-level="2">Core Technologies</h2>
             <p>
               Building modern, responsive, and performant web applications
               requires a reliable and efficient tech stack. Here are the core
@@ -36,7 +36,7 @@ export default function Tools() {
             </p>
           </div>
           <div className="prose prose-theme">
-            <h2>Content Management</h2>
+            <h2 aria-level="2">Content Management</h2>
             <p>
               Effective content management systems are at the heart of dynamic
               web applications. These tools empower me to deliver flexible,
@@ -72,7 +72,7 @@ export default function Tools() {
             </p>
           </div>
           <div className="prose prose-theme">
-            <h2>Development Tools</h2>
+            <h2 aria-level="2">Development Tools</h2>
             <p>
               Great tools make the development process more efficient,
               collaborative, and enjoyable. Here are the tools I use to
@@ -106,7 +106,7 @@ export default function Tools() {
             </p>
           </div>
           <div className="prose prose-theme">
-            <h2>Utilities and Extras</h2>
+            <h2 aria-level="2">Utilities and Extras</h2>
             <p>
               Building modern, responsive, and performant web applications
               requires a reliable and efficient tech stack. Here are the core
