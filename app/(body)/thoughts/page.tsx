@@ -39,7 +39,7 @@ export default function Thoughts() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-heading-2 font-bold" aria-level="2">
+              <h2 className="text-heading-2 font-bold" aria-level={2}>
                 The Tools That Shaped My Development Journey
               </h2>
               <p className="text-concrete-gray">
@@ -77,7 +77,7 @@ export default function Thoughts() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-heading-2 font-bold" aria-level="2">
+              <h2 className="text-heading-2 font-bold" aria-level={2}>
                 From Solo Dev to Full-Stack
               </h2>
               <p className="text-concrete-gray">
@@ -115,7 +115,7 @@ export default function Thoughts() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <h2 className="text-heading-2 font-bold" aria-level="2">
+              <h2 className="text-heading-2 font-bold" aria-level={2}>
                 Gamifying Productivity
               </h2>
               <p className="text-concrete-gray">
