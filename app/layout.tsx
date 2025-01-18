@@ -1,7 +1,8 @@
+import Script from 'next/script';
+import SmoothScrolling from '@/components/SmoothScrolling';
 import type { Metadata } from 'next';
 import { Poppins, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import Script from 'next/script';
 
 const poppinsSans = Poppins({
   variable: '--font-poppins-sans',
@@ -30,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${poppinsSans.variable} ${geistMono.variable} antialiased bg-deep-charcoal text-off-white`}
       >
-        {children}
+        <SmoothScrolling>{children}</SmoothScrolling>
       </body>
       <Script
         async
