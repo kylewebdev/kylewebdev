@@ -47,7 +47,7 @@ export default function Projects() {
             </div>
           </a>
           <a
-            href="https://jointmedias.com/work/lucas-public-affairs-web-design-web-development/"
+            href="https://lucaspublicaffairs.com/"
             target="_blank"
             className="relative flex flex-col @xl:flex-row gap-4 @xl:items-center p-4 bg-charcoal-black/0 group hover:bg-charcoal-black transition-colors duration-300 rounded-lg"
           >
