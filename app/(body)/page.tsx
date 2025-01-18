@@ -1,30 +1,30 @@
 import { PageTitle } from '@/components/PageTitle';
 import { Stats } from '@/components/Stats';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 
 // public/tech/CSS.svg public/tech/html.svg public/tech/javascript.svg public/tech/next.svg public/tech/php.svg public/tech/postgresql.svg public/tech/tailwind-css-2.svg public/tech/typescript.svg
-import NextLogo from '@/public/tech/next.svg';
-import CSSLogo from '@/public/tech/CSS.svg';
-import HTMLLogo from '@/public/tech/html.svg';
-import JavaScriptLogo from '@/public/tech/javascript.svg';
-import PHPLogo from '@/public/tech/php.svg';
-import PostgreSQLLogo from '@/public/tech/postgresql.svg';
-import TailwindCSSLogo from '@/public/tech/tailwind-css.svg';
-import TypeScriptLogo from '@/public/tech/typescript.svg';
-import WordPressLogo from '@/public/tech/wordpress.svg';
-import ReactLogo from '@/public/tech/react.svg';
-import GitLogo from '@/public/tech/git.svg';
-import MySQLLogo from '@/public/tech/mysql.svg';
-import NodeLogo from '@/public/tech/nodejs.svg';
-import DockerLogo from '@/public/tech/docker.svg';
+// import NextLogo from '@/public/tech/next.svg';
+// import CSSLogo from '@/public/tech/CSS.svg';
+// import HTMLLogo from '@/public/tech/html.svg';
+// import JavaScriptLogo from '@/public/tech/javascript.svg';
+// import PHPLogo from '@/public/tech/php.svg';
+// import PostgreSQLLogo from '@/public/tech/postgresql.svg';
+// import TailwindCSSLogo from '@/public/tech/tailwind-css.svg';
+// import TypeScriptLogo from '@/public/tech/typescript.svg';
+// import WordPressLogo from '@/public/tech/wordpress.svg';
+// import ReactLogo from '@/public/tech/react.svg';
+// import GitLogo from '@/public/tech/git.svg';
+// import MySQLLogo from '@/public/tech/mysql.svg';
+// import NodeLogo from '@/public/tech/nodejs.svg';
+// import DockerLogo from '@/public/tech/docker.svg';
 
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from '@/components/ui/tooltip';
+// import {
+//   Tooltip,
+//   TooltipContent,
+//   TooltipProvider,
+//   TooltipTrigger,
+// } from '@/components/ui/tooltip';
 
 export default function Home() {
   return (
