@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import VivaImage from '@/public/projects/viva.jpg';
-import CAEnergyImage from '@/public/projects/CA-Energy-Workers.jpg';
+// import CAEnergyImage from '@/public/projects/CA-Energy-Workers.jpg';
 import LucasImage from '@/public/projects/Lucas-Public-Affairs.jpg';
 import JointImage from '@/public/projects/JointMedias.png';
 import { Contact } from '@/components/Contact';
