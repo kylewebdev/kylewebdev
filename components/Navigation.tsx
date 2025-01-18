@@ -38,14 +38,14 @@ export default function Navigation() {
             </span>
           </Button>
         </li>
-        <li>
+        {/* <li>
           <Button asChild variant="navigation" size="link">
             <span>
               <span className="text-muted-teal font-bold">/</span>
               <Link href="/thoughts">thoughts</Link>
             </span>
           </Button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
