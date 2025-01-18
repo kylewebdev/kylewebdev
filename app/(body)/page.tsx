@@ -41,7 +41,7 @@ export default function Home() {
 
       <Stats />
 
-      <div className="flex flex-col gap-8 @container">
+      {/* <div className="flex flex-col gap-8 @container">
         <div className="prose prose-theme max-w-[500px]">
           <p className="text-small">
             From the essentials to cutting-edge frameworks, here&apos;s what
@@ -261,7 +261,7 @@ export default function Home() {
             </Tooltip>
           </TooltipProvider>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
