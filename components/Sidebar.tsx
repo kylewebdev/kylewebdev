@@ -48,7 +48,7 @@ export default function Sidebar() {
                 />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="https://github.com/kylewebdev"
                 target="_blank"
@@ -62,7 +62,7 @@ export default function Sidebar() {
                   alt="Github Link"
                 />
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="mailto:kylewebdev@gmail.com" aria-label="Email">
                 <Image
