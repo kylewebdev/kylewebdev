@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import LinkedInIcon from '@/public/social/linkedin.svg';
-import GitHubIcon from '@/public/social/github.svg';
+// import GitHubIcon from '@/public/social/github.svg';
 import XIcon from '@/public/social/x.svg';
 import EmailIcon from '@/public/social/email.svg';
 
