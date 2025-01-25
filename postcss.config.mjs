@@ -1,8 +1,10 @@
 /** @type {import('postcss-load-config').Config} */
+import utopia from 'postcss-utopia';
+
 const config = {
   plugins: {
     tailwindcss: {},
-    'postcss-utopia': require('postcss-utopia')({
+    'postcss-utopia': utopia({
       minWidth: 320,
       maxWidth: 1280,
     }),
