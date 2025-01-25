@@ -5,6 +5,7 @@ import Image from 'next/image';
 import LinkedInIcon from '@/public/social/linkedin.svg';
 // import GitHubIcon from '@/public/social/github.svg';
 import XIcon from '@/public/social/x.svg';
+import ResumeIcon from '@/public/social/resume.svg';
 import EmailIcon from '@/public/social/email.svg';
 
 export default function Sidebar() {
@@ -45,6 +46,21 @@ export default function Sidebar() {
                   style={{ filter: 'invert(1)' }}
                   src={XIcon}
                   alt="X Link"
+                />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://drive.google.com/file/d/1R8s_rBJgy8LK0fhVWnH7GZSTaBTAJA25/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Resume"
+              >
+                <Image
+                  className="max-w-4"
+                  style={{ filter: 'invert(1)' }}
+                  src={ResumeIcon}
+                  alt="Resume Link"
                 />
               </Link>
             </li>

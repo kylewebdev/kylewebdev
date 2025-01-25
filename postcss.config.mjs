@@ -2,6 +2,10 @@
 const config = {
   plugins: {
     tailwindcss: {},
+    'postcss-utopia': require('postcss-utopia')({
+      minWidth: 320,
+      maxWidth: 1280,
+    }),
   },
 };
 
