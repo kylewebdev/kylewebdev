@@ -7,9 +7,9 @@ export default function Tools() {
       <div className="flex flex-col gap-16">
         <PageTitle titleStart="Developer" titleEnd="Tools" />
 
-        <div className="flex flex-col gap-12">
-          <div className="prose prose-theme">
-            <h2 aria-level={2}>Core Technologies</h2>
+        <section className="flex flex-col gap-12 prose prose-theme">
+          <div>
+            <h2>Core Technologies</h2>
             <p>
               Building modern, responsive, and performant web applications
               requires a reliable and efficient tech stack. Here are the core
@@ -35,8 +35,8 @@ export default function Tools() {
               me build intuitive UIs quickly.
             </p>
           </div>
-          <div className="prose prose-theme">
-            <h2 aria-level={2}>Content Management</h2>
+          <div>
+            <h2>Content Management</h2>
             <p>
               Effective content management systems are at the heart of dynamic
               web applications. These tools empower me to deliver flexible,
@@ -71,8 +71,8 @@ export default function Tools() {
               to create robust backends and extend WordPress functionality.
             </p>
           </div>
-          <div className="prose prose-theme">
-            <h2 aria-level={2}>Development Tools</h2>
+          <div>
+            <h2>Development Tools</h2>
             <p>
               Great tools make the development process more efficient,
               collaborative, and enjoyable. Here are the tools I use to
@@ -105,8 +105,8 @@ export default function Tools() {
               integration.
             </p>
           </div>
-          <div className="prose prose-theme">
-            <h2 aria-level={2}>Utilities and Extras</h2>
+          <div>
+            <h2>Utilities and Extras</h2>
             <p>
               Building modern, responsive, and performant web applications
               requires a reliable and efficient tech stack. Here are the core
@@ -122,7 +122,7 @@ export default function Tools() {
               Essential for prototyping and collaborating on design workflows.
             </p>
           </div>
-        </div>
+        </section>
       </div>
       <Contact />
     </div>

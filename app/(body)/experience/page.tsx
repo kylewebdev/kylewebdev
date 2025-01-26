@@ -8,36 +8,8 @@ export default function Experience() {
       <div className="flex flex-col gap-16">
         <PageTitle titleStart="Professional" titleEnd="Experience" />
 
-        <div className="flex flex-col gap-12 max-w-[70ch]">
-          <div className="prose prose-theme">
-            <h2>Freelancing</h2>
-            <p>
-              <em>2014 &mdash; Present</em>
-            </p>
-            <ul>
-              <li>
-                Designed and delivered custom websites for diverse clients,
-                prioritizing functionality, performance, and user experience.
-              </li>
-              <li>
-                Collaborated directly with clients to define project scopes and
-                deliver tailored solutions that met business needs.
-              </li>
-              <li>
-                Implemented SEO strategies to enhance site visibility and drive
-                organic traffic growth.
-              </li>
-              <li>
-                Developed and maintained long-term client relationships,
-                ensuring consistent quality and reliability.
-              </li>
-              <li>
-                Integrated modern tools and frameworks, enabling clients to
-                manage content efficiently.
-              </li>
-            </ul>
-          </div>
-          <div className="prose prose-theme">
+        <div className="flex flex-col gap-12 max-w-[70ch] prose prose-theme">
+          <div>
             <h3 className="text-heading-2">
               <Link href="https://jointmedias.com" target="_blank">
                 Joint Medias
@@ -47,45 +19,63 @@ export default function Experience() {
               <strong>Full-Stack Web Developer</strong>
             </h3>
             <p>
-              <em>February 2015 &mdash; Present</em>
+              <em>FEB 2015 &mdash; Present</em>
             </p>
             <ul>
               <li>
-                Developed a wide range of web projects, from static sites to
-                complex, API-driven React applications, within a fast-paced
-                agency setting.
+                Architected and implemented optimized workflows, reducing
+                project development time significantly while ensuring code
+                quality and accuracy
               </li>
               <li>
-                Mentored junior developers, combining hands-on coding with
-                strategic leadership to promote team growth and successful
-                project execution.
+                Collaborate closely with designers to create fully manageable,
+                high-impact websites that significantly improve client metrics
               </li>
               <li>
-                Delivered impactful results for a national self-improvement
-                website, achieving:
-                <ul>
-                  <li>10% increase in average session duration.</li>
-                  <li>15% decrease in bounce rate.</li>
-                  <li>Over 300,000 monthly page views.</li>
-                </ul>
+                Conduct regular code reviews and technical presentations to
+                elevate team skills and maintain code standards
               </li>
               <li>
-                Spearheaded technology stack decisions, integrating modern
-                frameworks and best practices to enhance the agency&apos;s
-                development capabilities.
+                Development of diverse web projects, ranging from static sites
+                to complex API-driven React applications, in a fast-paced agency
+                environment
               </li>
               <li>
-                Collaborated with designers to create high-impact, fully
-                manageable websites, significantly improving client metrics.
-              </li>
-              <li>
-                Optimized workflows, reducing project development time while
-                maintaining code quality and accuracy.
+                Lead technology stack decisions, introducing modern frameworks
+                and best practices to enhance agency capabilities
               </li>
             </ul>
           </div>
 
-          <div className="prose prose-theme">
+          <div>
+            <h3 className="text-heading-2">
+              <Link href="https://lovegevity.com" target="_blank">
+                Lovegevity
+              </Link>
+            </h3>
+            <h3>
+              <strong>Web Developer</strong>
+            </h3>
+            <p>
+              <em>OCT 2014 &mdash; FEB 2015</em>
+            </p>
+            <ul>
+              <li>
+                Collaborated with UX designers to ensure intuitive navigation
+                and responsive design across devices
+              </li>
+              <li>
+                Leveraged Angular to create an interactive learning platform,
+                focusing on seamless integration of video and audio components
+              </li>
+              <li>
+                Spearheaded the development of a single-page application for
+                their educational content delivery system
+              </li>
+            </ul>
+          </div>
+
+          <div>
             <h2>
               <Link
                 href="https://web.archive.org/web/20140704184655/https://www.digitalgear.com/"
@@ -95,31 +85,27 @@ export default function Experience() {
               </Link>
             </h2>
             <h3>
-              <strong>Intern Developer</strong>
+              <strong>Junior Developer</strong>
             </h3>
             <p>
-              <em>February 2012 &mdash; October 2014</em>
+              <em>FEB 2012 &mdash; OCT 2014</em>
             </p>
             <ul>
               <li>
-                Built and maintained custom WordPress themes, transitioning from
-                intern to junior developer.
+                Built responsive themes from scratch, focusing on
+                client-friendly admin interfaces for easy content management
               </li>
               <li>
-                Created responsive themes from scratch with client-friendly
-                admin interfaces for streamlined content management.
+                Collaborated with design team to translate mockups into fully
+                functional WordPress themes
               </li>
               <li>
-                Leveraged PHP and JavaScript best practices to ensure theme
-                performance and security.
+                Gained proficiency in version control (Git) and agile
+                development methodologies
               </li>
               <li>
-                Collaborated with designers to transform mockups into fully
-                functional WordPress themes.
-              </li>
-              <li>
-                Gained experience with version control systems (Git) and agile
-                development workflows.
+                Implemented best practices in PHP and JavaScript to ensure theme
+                performance and security
               </li>
             </ul>
           </div>
