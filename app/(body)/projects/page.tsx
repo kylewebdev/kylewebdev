@@ -41,8 +41,8 @@ export default function Projects() {
             <div className="flex flex-col gap-2">
               <h2 className="text-heading-2 font-bold">Joint Medias</h2>
               <p className="text-soft-pewter">
-                Developed a modern website for a creative agency to showcase
-                their services and portfolio.
+                Developed a headless portfolio site with Gatsby and ThreeJS. The
+                content is managed in WordPress and fetched via GraphQL.
               </p>
             </div>
           </a>
@@ -74,8 +74,9 @@ export default function Projects() {
             <div className="flex flex-col gap-2">
               <h2 className="text-heading-2 font-bold">Lucas Public Affairs</h2>
               <p className="text-soft-pewter">
-                Developed a modern website aligned with the firm&apos;s branding
-                to highlight their services, team, and case studies.
+                Developed a modern WordPress theme that aligned with the
+                firm&apos;s branding to highlight their services, team, and case
+                studies.
               </p>
             </div>
           </a>

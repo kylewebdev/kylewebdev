@@ -36,9 +36,10 @@ export default function Experience() {
                 elevate team skills and maintain code standards
               </li>
               <li>
-                Development of diverse web projects, ranging from static sites
-                to complex API-driven React applications, in a fast-paced agency
-                environment
+                Development of diverse web{' '}
+                <Link href="/projects">projects</Link>, ranging from static
+                sites to complex API-driven React applications, in a fast-paced
+                agency environment.
               </li>
               <li>
                 Lead technology stack decisions, introducing modern frameworks
