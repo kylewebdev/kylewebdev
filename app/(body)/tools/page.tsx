@@ -1,6 +1,5 @@
 import { Contact } from '@/components/Contact';
 import { PageTitle } from '@/components/PageTitle';
-import Link from 'next/link';
 
 export default function Tools() {
   return (
