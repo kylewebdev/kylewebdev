@@ -39,7 +39,7 @@ export default function RootLayout({
 				<Script
 					async
 					src="https://umami.kylewebdev.com/script.js"
-					data-website-id="9e715dff-bb5a-4bc6-b0a8-c50619e1eb81"
+					data-website-id="49382156-455d-40d0-ace1-f7a7036e3cbd"
 				/>
 			</html>
 		</ViewTransitions>
